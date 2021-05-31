@@ -1,0 +1,26 @@
+<html>
+
+<head>
+    <title>Weather</title>
+    <link rel="stylesheet" href="/css/stylesheet.css" />
+    <link rel="icon" href="https://uxwing.com/wp-content/themes/uxwing/download/27-weather/weather.png" />
+    
+</head>
+
+<body>
+    <div class="main-content">
+        {{>header}}
+            <h4>Use this site to get weather report</h4>
+
+            <form>
+                <input placeholder="Location">
+                <button>Search</button>
+                <p id="messsage-1"></p>
+                <p id="messsage-2"></p>
+            </form>
+               
+    </div>
+     {{>footer}}
+     <script src="./js/app.js"></script>
+</body>
+</html>
