@@ -66,7 +66,7 @@ app.get('/weather',(req,res) => {
         res.send({
             address: data.location.name,
             country: data.location.country,
-            weatherReport: 'It is currently '+data.current.temperature+' degrees. It feels like '+data.current.feelslike+' degrees out'
+            weatherReport: 'It is currently '+data.current.temperature+' degrees. It feels like '+data.current.feelslike+' degrees out. And Humidity is '+data.current.humidity
         })
     }); 
 });
